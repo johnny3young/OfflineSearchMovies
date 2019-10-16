@@ -1,4 +1,4 @@
-package com.young.offlinesearchmovies
+package com.young.offlinesearchmovies.app
 
 import android.app.Application
 import android.content.Context
