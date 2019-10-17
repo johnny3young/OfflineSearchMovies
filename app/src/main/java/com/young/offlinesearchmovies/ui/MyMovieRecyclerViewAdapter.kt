@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import com.bumptech.glide.Glide
 import com.young.offlinesearchmovies.R
-import com.young.offlinesearchmovies.data.local.MovieEntity
+import com.young.offlinesearchmovies.data.local.entity.MovieEntity
 import com.young.offlinesearchmovies.data.remote.ApiConstants
 import kotlinx.android.synthetic.main.fragment_movie.view.*
 

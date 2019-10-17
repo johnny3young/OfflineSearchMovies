@@ -9,7 +9,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.young.offlinesearchmovies.R
-import com.young.offlinesearchmovies.data.local.MovieEntity
+import com.young.offlinesearchmovies.data.local.entity.MovieEntity
 
 class MovieFragment : Fragment() {
     private var columnCount = 1
@@ -37,9 +37,9 @@ class MovieFragment : Fragment() {
                     columnCount <= 1 -> LinearLayoutManager(context)
                     else -> GridLayoutManager(context, columnCount)
                 }
-                adapter = MyMovieRecyclerViewAdapter(activity,movieList)
+                adapter = MyMovieRecyclerViewAdapter(movieList,context)
             }
-            MyMovieRecyclerViewAdapter(adapter)
+
         }
         return view
     }
